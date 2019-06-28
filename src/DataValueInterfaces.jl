@@ -34,16 +34,4 @@ function datavaluetype end
 datavaluetype(::Type{T}) where {T} = T
 datavaluetype(::Type{Union{}}) = Union{}
 
-"""
-    unwrap(x)
-
-For a value `x`, potentially "unwrap" it from a `DataValue` or similar container.
-
-This generic function is owned by DataValueInterfaces.jl itself, which is the sole provider of the
-default definition.
-"""
-function unwrap end
-
-unwrap(x) = x
-
 end # module

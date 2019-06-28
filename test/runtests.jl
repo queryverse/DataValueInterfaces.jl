@@ -16,10 +16,4 @@ end
 
 end
 
-@testset "unwrap" begin
-
-    @test DataValueInterfaces.unwrap(1) == 1
-
-end
-
 end # @testset "DataValueInterfaces"
