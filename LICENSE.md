@@ -1,6 +1,6 @@
 The DataValueInterfaces.jl package is licensed under the MIT "Expat" License:
 
-> Copyright (c) 2019: Jacob Quinn and David Anthoff.
+> Copyright (c) 2019-2026: Jacob Quinn and David Anthoff.
 >
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
